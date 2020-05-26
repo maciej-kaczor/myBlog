@@ -1,0 +1,9 @@
+    <h2>Chat Room</h2>
+    <div id="chat-box">
+    </div>
+    
+    <form id="chat-form">
+      <input type="text" id="user-name" value="<%= @current_user.name %>" disabled></input>
+      <textarea placeholder="Your comment" id="user-msg"></textarea>
+      <button type="submit">Post</button>
+    </form>
